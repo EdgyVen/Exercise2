@@ -1,15 +1,26 @@
-body{
-    margin: 0 0 0 0;
+html,body {
+    margin: 0 auto;
+    height: 100%;
+    font-size: 100%;
 }
 
 .header{
+    height: 10%;
     background-color: lightblue;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 30%;
 }
 
 .section{
-    background-color: lightblue;
+    height: 60%;
+    background-color: red;
+    padding: 25px 50px;
 }
 
 .footer{
+    height: 10%;
     background-color: lightblue;
+    text-align: center;
+    padding: 5px 10px;
 }
