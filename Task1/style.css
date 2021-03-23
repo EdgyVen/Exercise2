@@ -4,6 +4,19 @@ html,body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: indianred;
+}
+
+h1{
+    font-size: 22px;
+}
+
+h2{
+    font-size: 20px;
+}
+
 .page{
     position: relative;
     min-height: 100vh;
@@ -12,34 +25,38 @@ html,body {
 .header{
     background-color: indianred;
     text-align: center;
-    padding: 10px 25px;
-    font-size: 20px;
+    padding: 40px 30px;
 }
 
 .section{
     font-size: 12px;
     padding-top: 50px;
-    padding-right: 100px;
+    padding-right: 80px;
     padding-bottom: 100px;
-    padding-left: 100px;
+    padding-left: 80px;
 }
 
 .buttoncontainer{
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .button{
     border: none;
+    border-radius: 4px;
+    color: whitesmoke;
+    background-color: indianred;
+    padding: 15px 32px;
 }
 
 .footer{
     background-color:lightgray;
+    color: gray;
     text-align: center;
     position: absolute;
     font-size: 10px;
     bottom: 0px;
     width: 100%;
-    height: 80px;
-    padding: 10px 10px;
+    height: 60px;
+    padding: 20px 10px;
 }
