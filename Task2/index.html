@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Form Template</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
-            <form>
-                <input type="text">
-                <br>
-                <input type="text">
-                <br>
-                <input type="submit">
-            </form>
+        <div class="">
+            <div class="form-container">
+                <form>
+                    <input type="text" id="uname" name="username" placeholder="username">
+                    <br>
+                    <input type="password" id="pword" name="password" placeholder="password">
+                    <br>
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+            <div class="extra-text">
+                <p>Not registered?<a>Create an account</a></p>
+            </div>
         </div>
     </body>
 </html>
