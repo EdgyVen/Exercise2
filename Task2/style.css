@@ -21,6 +21,7 @@ a{
 }
 
 p{
+    color: lightgray;
     margin: 0;
 }
 
@@ -66,6 +67,7 @@ input[type="password"]{
 }
 
 input[type="submit"]{
+    color: white;
     background-color: #34799E;
     padding: 14px 20px;
     cursor: pointer;
