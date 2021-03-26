@@ -15,6 +15,10 @@ body{
     margin: 0;
 }
 
+h1{
+    font-size: 70px;
+}
+
 img{
     width: 100%;
     margin-bottom: -5px;
@@ -33,14 +37,22 @@ div{
 }
 
 table{
+    color: white;
     width: 100%;
+    border-collapse: collapse;
+}
+
+td,tr{
+    border: none;
 }
 
 .page{
-    padding-top: 80px;
+    padding-top: 178px;
+    padding-bottom: 180px;
 }
 
 .header{
+    font-family:'Dancing Script', cursive;
     color: black;
     top: 0;
     position: fixed;
@@ -55,6 +67,7 @@ table{
 
 .content{
     text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 80%;
     margin-left: auto;
@@ -65,6 +78,9 @@ table{
     background-color: white;
     text-align: left;
     padding: 20px;
+    border-bottom: dashed;
+    border-width: 1px;
+    border-color: lightgray;
 }
 
 .article-title-container{
@@ -77,38 +93,47 @@ table{
 }
 
 .read-and-plus{
-    background-color: tomato;
+    height: 10vw;
+    background-color: white;
 }
 
-.read-more-container{
-    display: inline-block;
-    text-align: left;
+.read-more{
+    height: 10vw;
+    line-height: 10vw;
+    float: left;
     background-color: white;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .plus{
-    height: 60px;
-    width: 60px;
-    display: inline-block;
+    font-size: 5vw;
+    height: 10vw;
+    width: 10vw;
+    line-height: 10vw;
+    color: white;
     background-color: #035159;
-    padding: 20px;
+    float: right;
 }
 
-.fa-plus{
-    color: tomato;
+.calendar tr:nth-child(even){
+    background-color: #025a64;
 }
 
 .calendar-container{
     background: #035159;
 }
 
-.calendar-date-container{
-    display: inline;
+.date{
+    font-size: 25px;
+    padding: 10px;
+    width: 20%;
 }
 
-.calendar-text-container{
-    display: inline;
+.calendar-text{
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+    width: 80%;
 }
 
 .footer-and-links{
