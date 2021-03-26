@@ -1,15 +1,39 @@
+/* Color Theme Swatches in Hex */
+.color-theme_guitar-1-hex { color: #011826; }
+.color-theme_guitar-2-hex { color: #023440; }
+.color-theme_guitar-3-hex { color: #035159; }
+.color-theme_guitar-4-hex { color: #F2CDA0; }
+.color-theme_guitar-5-hex { color: #D9B18F; }
+
+*{
+    box-sizing: border-box;
+}
+
 body{
     width: 100%;
-    background-color: rebeccapurple;
+    background-color:#023440;
     margin: 0;
 }
 
 img{
     width: 100%;
+    margin-bottom: -5px;
 }
 
 p{
     margin: 0;
+}
+
+a{
+    color: #035159;
+}
+
+div{
+    margin: 0;
+}
+
+table{
+    width: 100%;
 }
 
 .page{
@@ -17,6 +41,7 @@ p{
 }
 
 .header{
+    color: black;
     top: 0;
     position: fixed;
     z-index: -1;
@@ -24,17 +49,58 @@ p{
     text-align: center;
 }
 
+.section{
+    padding: 0;
+}
+
 .content{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 80%;
-    background-color: lightcoral;
     margin-left: auto;
     margin-right: auto;
 }
 
-.calendar-entry-container{
-    background: tomato;
+.stats-and-title{
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.article-title-container{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.date-and-likes{
+    font-size: 15px;
+}
+
+.read-and-plus{
+    background-color: tomato;
+}
+
+.read-more-container{
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+}
+
+.plus{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background-color: #035159;
+    padding: 20px;
+}
+
+.fa-plus{
+    color: tomato;
+}
+
+.calendar-container{
+    background: #035159;
 }
 
 .calendar-date-container{
@@ -46,7 +112,7 @@ p{
 }
 
 .footer-and-links{
-    background-color: black;
+    background-color: #011826;
     color: white;
     padding: 20px;
 }
