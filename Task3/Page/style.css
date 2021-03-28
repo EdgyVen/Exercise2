@@ -124,9 +124,17 @@ td,tr{
 }
 
 .date{
-    font-size: 25px;
-    padding: 10px;
+    padding: 10px 50px;
     width: 20%;
+}
+
+.date-month{
+    font-size: 15px;
+    color: gray;
+}
+
+.date-number{
+    font-size: 45px;
 }
 
 .calendar-text{
@@ -140,4 +148,13 @@ td,tr{
     background-color: #011826;
     color: white;
     padding: 20px;
+}
+
+.footer-heading{
+    font-size: 15px;
+}
+
+.footer-subheading{
+    padding: 5px;
+    font-size: 10px;
 }
